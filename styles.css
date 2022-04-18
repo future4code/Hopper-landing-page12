@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(230, 230, 230, 0.789);
+    background-color: rgba(43, 31, 31, 0.789);
     color: rgb(11, 19, 94);
     font-family: monospace;
     margin: 0 auto;
@@ -68,12 +68,6 @@ main {
     display: flex;
     flex-direction: row;
     margin: 50px;
-
-
-    
-
-    
-
 }
 
 p {
@@ -146,6 +140,32 @@ footer {
     font-size:x-small;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
