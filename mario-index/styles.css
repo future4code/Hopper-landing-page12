@@ -16,8 +16,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #7EB176;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 30px;
+    font-family: Georgia, monospace;
+    /* border: solid; */
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -26,18 +26,17 @@ header {
     line-height: 10px;
     margin: 20px;
     color: rgb(62, 12, 109);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
     display: inline-block;
     margin: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: monospace;
 
 }
 
 ul {
-    padding: 0 10px;
+    padding: 0 50px;
 
 
 }
@@ -66,8 +65,8 @@ h1 {
 main {
     display: flex;
     flex-direction: row;
-    margin: 50px;
-    
+
+    margin: 50px
 }
 
 p {
@@ -79,11 +78,9 @@ p {
 
 h2 {
 
-    font-size: 25px;
+    font-size: 26px;
     line-height: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: justify;
-    
+    font-family: monospace
 }
 
 mark {
@@ -96,23 +93,24 @@ img {
     padding-left: 20px;
 }
 
- 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
 
 form [type="submit"] {
-    height: 40px;
-    width: 15%;
+    height: 50px;
+    width: 50%;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
-    margin-left: 50px;
-    
 
 }
 
 form [type="submit"]:hover {
-    height: 40px;
-    width: 20%;
-    padding: 10px;
+    height: 50px;
+    width: 50%;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
@@ -121,11 +119,11 @@ form [type="submit"]:hover {
 }
 
 input {
-    margin-top: 60px;
+    margin-top: 20px;
     height: 20px;
     padding: 10px;
     border-radius: 10px;
     border: none;
-    font-size: 17px;
+    font-size: 15px;
 
 }
