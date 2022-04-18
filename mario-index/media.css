@@ -41,17 +41,18 @@
         font-size: 16px;
     }
 
-    form {
-        margin: 0 auto;
-       
-    }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 110%;
-    }
 
+    form [type="submit"] {
+        height: 40px;
+        width: 100%;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        margin-left: -0.5px;
+        
+    
+    }
  
 
     img {
@@ -59,6 +60,7 @@
         width: 300px; 
         height: 300px;
         margin: 15px 0px 45px -50px;
+        padding-left: 20px;
      
        
     }

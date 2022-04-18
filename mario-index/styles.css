@@ -96,24 +96,23 @@ img {
     padding-left: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
+ 
 
 form [type="submit"] {
-    height: 50px;
-    width: 50%;
+    height: 40px;
+    width: 15%;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
+    margin-left: 50px;
+    
 
 }
 
 form [type="submit"]:hover {
-    height: 50px;
-    width: 50%;
+    height: 40px;
+    width: 20%;
+    padding: 10px;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
@@ -122,11 +121,11 @@ form [type="submit"]:hover {
 }
 
 input {
-    margin-top: 20px;
+    margin-top: 60px;
     height: 20px;
     padding: 10px;
     border-radius: 10px;
     border: none;
-    font-size: 15px;
+    font-size: 17px;
 
 }
