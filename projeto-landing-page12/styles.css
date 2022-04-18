@@ -1,0 +1,251 @@
+body {
+    background-color: white;
+    color: rgb(11, 19, 94);
+    font-family: monospace;
+    margin: 0 auto;
+    padding: 15px;
+    background-image:url(./Imagens/NEW-image.jpg);
+    background-size: auto, auto;
+
+
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7EB176;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: solid; */
+    border-radius: 10px 10px 10px 10px;
+    /* background-image: url('Imagens/background7.jpg'); */
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    margin: 20px;
+    color: rgb(62, 12, 109);
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;;
+
+}
+
+ul {
+    padding: 0 50px;
+
+
+}
+
+
+a {
+    color: rgb(125, 68, 68);
+    padding: 0 10px;
+    min-height: 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover {
+
+    color: rgb(24, 0, 46);
+    transition: 0.3s all;
+
+
+}
+
+.teste-porcoes {
+    font-weight: 200;
+    font-weight: bold;
+    background-color: #7EB176;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+p {
+    font-size: 25px;
+    max-width: 500px;
+    font: weight 100px;
+    display: inline;
+}
+
+h2 {
+
+    font-size: 20px;
+    line-height: 30px;
+    font-family: monospace
+}
+
+mark {
+    background-color: #7EB176;
+    color: #000000;
+}
+
+img {
+    width: 460px;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+
+}
+
+form [type="submit"]:hover {
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #7EB176;
+    font-family: Georgia, monospace;
+    border-radius: 10px 10px 10px 10px;
+    font-size:x-small;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*A PARTIR DAQUI - ESTILIZAÇÃO DA PÁGINA PRODUTOS.HTML*/
+
+
+.titulo-produtos {
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    display:flex;
+    justify-content: center;
+}
+
+
+#main-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -4vh;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.imagens {
+    display: flex;
+    width: 22.6em;
+    border-radius: 15%;
+    padding: 0;
+}
+
+
+.nome-produto {
+    display: flex;
+    margin-left: 20%;
+}
+
+h2 {
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+
+button{
+    margin-bottom: 10%;
+    margin-left: 27%;
+    padding: 2%;
+    /* padding-right: 50%; */
+    text-align: center;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    border-radius: 12px
+}
+
+button:hover {
+    background-color: rgb(79, 179, 124);
+    color: white;
+}
