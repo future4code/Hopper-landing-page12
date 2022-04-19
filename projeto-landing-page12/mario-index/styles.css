@@ -4,6 +4,8 @@ body {
     font-family: monospace;
     margin: 0 auto;
     padding: 15px;
+    background-image:url(./Imagens/NEW-image.jpg);
+
 
 }
 
@@ -140,27 +142,3 @@ footer {
     font-size:x-small;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
