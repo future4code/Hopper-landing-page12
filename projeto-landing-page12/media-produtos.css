@@ -1,0 +1,52 @@
+@media screen and (max-width: 760px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+
+    }
+
+    .saudacao {
+        font-size: small;
+        padding: 45px;
+
+    }
+
+    ul {
+        padding: 0 10px 30px;
+        margin: 0 15px;
+        display: flex;
+
+    }
+
+    a {
+        padding: 0 0 15px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    img {
+        display: none;
+    }
+
+    p {
+        font-size: 20px
+    }
+
+    footer {
+        flex-direction: column;
+        font-size:8px;
+        position: relative;
+        text-align: center;
+    }
+
+}
